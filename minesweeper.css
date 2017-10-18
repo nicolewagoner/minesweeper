@@ -1,0 +1,119 @@
+.row-last {
+  clear:both;
+  display: inline-block;
+}
+.row-not-last {
+  float:left;
+  display: inline-block;
+}
+.unit {
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  font-family: "Arial";
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+.unpressed {
+  background-color: #c2f2f9;
+  box-shadow: 1px 1px #85bcc4;
+}
+.unpressed:hover {
+  background-color: #fcb185;
+  box-shadow: 1px 1px #e29568;
+}
+.bomb {
+  background-color: #f43a3a;
+  box-shadow: -1px -1px #7a0202;
+  color: #fff;
+  font-size: xx-small;
+  text-shadow: 1px 1px black;
+  text-transform: uppercase;
+}
+.warn-1 {
+  color: #44c2d6;
+}
+.warn-2 {
+  color: #8e6bd3;
+}
+.warn-3 {
+  color: #e276e8;
+}
+.empty {
+  font-size: large;
+  text-shadow: 1px 1px white;
+  background-color: #f2fafc;
+  box-shadow: -1px -1px #b8c4c6, 1px 1px #fff;
+}
+.bomb-wrapper {
+  width: 35%;
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px #fff;
+}
+.bomb-countdown {
+  background-color: #f43a3a;
+  padding: 10px;
+  color: #fff;
+  display: inline-block;
+  box-shadow: 1px 1px #7a0202;
+  border-radius: 30px;
+  text-shadow: 2px 2px #7a0202;
+}
+.bomb-text {
+  padding: 10px;
+  color: pink;
+  display: inline-block;
+  text-shadow: 2px 2px #7a0202;
+  font-size : 30px;
+}
+.flags {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 60px solid #c4e288;
+  border-radius: 2px;
+  vertical-align: -11px;
+  margin-left: 5px;
+  box-shadow: -1px 0px #2b3810;
+}
+.flags span {
+    top: -11px;
+    left: -56px;
+    position: relative;
+}
+.flagged {
+  color: #2b3810;
+  background-color: #c4e288;
+  box-shadow: 1px 1px #2b3810;
+  text-shadow: 1px 1px #fff;
+}
+.game-over {
+  opacity: .7;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left: 0;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Arial";
+  line-height: 500px;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+}
+.hidden {
+  display : none;
+}
+.inline-block {
+  display: inline-block;
+}
